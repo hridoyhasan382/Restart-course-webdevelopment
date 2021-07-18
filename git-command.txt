@@ -1,0 +1,7 @@
+echo "# Restart-course-webdevelopment" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/hridoyhasan382/Restart-course-webdevelopment.git
+git push -u origin main
