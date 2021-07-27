@@ -45,5 +45,17 @@ h1 span{
     margin:0 5% 0 5%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding-left: 20px;
-    
+    border-left:7px solid;
+    border-image:linear-gradient(salmon,tomato) ;
+    border-image-slice: 1;
+}
+.exp-bg{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#baby-developer-border{
+    border-left:7px solid;
+    border-image:linear-gradient(blue, cyan) ;
+    border-image-slice: 1; 
 }
